@@ -4,10 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Error</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif; /* Set the font family */
+            text-align: center; /* Center-align the content */
+        }
+        .error-message {
+            color: red; /* Set the color of error messages to red */
+        }
+    </style>
 </head>
 <body>
     <h1>Error</h1>
-    <p>{{ message }}</p>
-    <p><a href="/">Go back</a></p>
+    <p class="error-message">{{ message }}</p>
+    <p><a href="/">Back to Home</a></p>
 </body>
 </html>

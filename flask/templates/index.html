@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tweet Disaster Prediction</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif; /* Set the font family */
+            text-align: center; /* Center-align the content */
+            font-size: 30px;
+        }
+        h1 {
+            font-size:xx-large; /* Increase the font size of the heading */
+        }
+        form {
+            display: inline-block; /* Center-align the form */
+            text-align: center; /* Align the form elements to the left */
+            margin-top: 50px; /* Add some top margin for spacing */
+            font-size: 30px;
+            margin: 0em;
+            border-width: 5px;
+            border-style: solid;
+            border-color: light-dark(rgb(13, 1, 1), rgba(7, 0, 0, 0.897));
+        }
+        #tweet_text {
+            width: 700px; /* Set the width of the text area */
+            height: 200px; /* Set the height of the text area */
+            font-size: 30px;
+        }
+        .error {
+            color: red; /* Set the color of error messages to red */
+        }
+    </style>
+</head>
+<body>
+    <h1>Predict Tweet Disaster</h1>
+    <form action="/predict" method="post">
+        <label for="tweet_text">Enter tweet text:</label><br>
+        <textarea id="tweet_text" name="tweet_text" rows="4" cols="50"></textarea><br>
+        <input type="submit" value="Predict">
+    </form>
+    {% if error %}
+        <p class="error">{{ error }}</p>
+    {% endif %}
+</body>
+</html>

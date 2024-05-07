@@ -3,11 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Result</title>
+    <title>Prediction Result</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif; /* Set the font family */
+            text-align: center; /* Center-align the content */
+        }
+        .result-message {
+            font-size: 50px; /* Set the font size */
+        }
+    </style>
 </head>
 <body>
-    <h1>Result</h1>
-    <p>{{ result }}</p>
-    <p><a href="/">Go back</a></p>
+    <h1>Prediction Result</h1>
+    <p class="result-message">{{ result }}</p>
+    <p><a href="/">Back to Home</a></p>
 </body>
 </html>

@@ -12,6 +12,37 @@ Enhanced Situational Awareness: Provide disaster relief agencies, news outlets, 
 Resource Optimization: Optimize resource allocation and response strategies by prioritizing and addressing verified disaster alerts effectively.
 Public Safety: Contribute to public safety by facilitating rapid dissemination of accurate information during emergencies, thereby enhancing community resilience and preparedness.
 
+Data Exploration & Preparation:
+
+Use Python libraries like Pandas to understand the columns and data types.
+Visualize the distribution of classes 
+Analyze the frequency of keywords and phrases associated with disaster tweets.
+Filter Disaster Tweet
+Tokenize and Count of word frequency
+Finding the special characters in the data set
+clean the text data
+Tokenize the text
+Remove stop words
+Lemmatization
+
+Feature Engineering and Model Selection
+
+Finding the word frequency 
+TF-IDF- Term Frequency Inverse document frequency
+Exploring TF-IDF score
+Analyizing sentimental distribution in NLP using Textblob
+Viszulizing word frequency with Wordcloud of tweet
+Finding Possitive sentimental tweet & Negative Sentimental tweet
+
+
+
+
+
+
+
+
+
+
 
 
 

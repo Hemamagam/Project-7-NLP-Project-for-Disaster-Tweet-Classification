@@ -23,44 +23,73 @@ Public Safety: Contribute to public safety by facilitating rapid dissemination o
 -Filter Disaster Tweet
 
 -Tokenize and Count of word frequency
+
 -Finding the special characters in the data set
+
 -clean the text data
+
 -Tokenize the text
+
 -Remove stop words
+
 -Lemmatization
+
 -Vectarization 
+
 
 >>Feature Engineering and Model Selection
 
 -Finding the word frequency 
+
 -TF-IDF- Term Frequency Inverse document frequency
+
 -Exploring TF-IDF score
+
 -Analyizing sentimental distribution in NLP using Textblob
+
 -Viszulizing word frequency with Wordcloud of tweet
+
 -Finding Possitive sentimental tweet & Negative Sentimental tweet
+
 -Word Embedding word2vec
+
 -Training the word2vec
+
 -Analyzed tokenized lengths of text data
+
 -Presence of Hashtags
+
 -Text Analysis Functions for URL Presence, Punctuation Counts, Emoticons/Emoji, Capitalized Words, Average Word Length, and Numeric Characters
+
 
 >>Model Building
 
 -Logistic Regression
+
 -Neural Network
+
 -Random forest
+
 -Decision Tree
+
 
 >>Model Evaluation & Validation
 
 -Evaluating the model using cross validation
+
 -Confusion matrix for clasification models
+
 -ROC curve for classification models
+
 -Precision recall curve for classification models
+
 -Hyperparameters
+
 -Evaluating Models and Determining Best Performer Based on F1 Score
 
+
 >>Develop web application using Flask
+
 
 >>Prediction of the tweet message is a Disaster Tweet or Not a Disaster Tweet
 

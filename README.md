@@ -15,9 +15,13 @@ Public Safety: Contribute to public safety by facilitating rapid dissemination o
 >>Data Exploration & Preparation:
 
 -Use Python libraries like Pandas to understand the columns and data types.
+
 -Visualize the distribution of classes 
+
 -Analyze the frequency of keywords and phrases associated with disaster tweets.
+
 -Filter Disaster Tweet
+
 -Tokenize and Count of word frequency
 -Finding the special characters in the data set
 -clean the text data

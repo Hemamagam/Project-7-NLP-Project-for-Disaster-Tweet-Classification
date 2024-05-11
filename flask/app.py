@@ -37,12 +37,12 @@ def predict():
 
         # Provide clear instructions and feedback on the classification result
         if prediction == 1:
-            result = "This tweet indicates a disaster."
+            result = "This tweet indicates a Disaster."
         else:
-            result = "This tweet does not indicate a disaster."
+            result = "This tweet indicate a Non-Disaster."
 
         # Return prediction result
-        return render_template("result.html", result=result)
+        return render_template("result.html", result=result, tweet_text=tweet_text)
 
     except Exception as e:
         # Print the exception for debugging
